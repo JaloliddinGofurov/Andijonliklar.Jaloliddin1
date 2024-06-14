@@ -4,19 +4,192 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Andijon</title>
-<!-- STYLES -->
-  <link rel="stylesheet" href="Css/normalize.css">
-  <link rel="stylesheet" href="Css/styles.css">
-
-<!-- GOOGLE-FONTS -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800& family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1, 900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 
 </head>
+<!-- STYLES -->
+<link rel="stylesheet" href="Css/normalize.css">
+<link rel="stylesheet" href="Css/styles.css">
+
+<!-- GOOGLE-FONTS -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800& family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1, 900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
 <body>
+  <!-- SITE-HEADER -->
+<header class="site-header">
+  <!-- SITE-HEADER-TOP -->
+  <div class="site-header-top">
+    <div class="site-header-top-container container">
+      <!-- SITE-HEADER-LOGO -->
+      <a class="site-header-logo" href="#">
+        <img class="site-header-logo-img" src="Css/Image/logo (1).svg" alt="logo" width="264" height="28">
+      </a>
 
+      <!-- CURRENCY-RATES -->
+      <ul class="currency-rates">
+        <li class="currency-rates-item">
+          <b class="currency-rates-type">$</b>
+          <span class="currency-rates-value">12.700</span>
+        </li>
+        <li class="currency-rates-item">
+          <b class="currency-rates-type">P</b>
+          <span class="currency-rates-value">15.00</span>
+        </li>
+      </ul>
 
-  <div>Bismillah</div>
-</body>
+<!-- GLOBAL-SEARCH-FORM -->
+      <form class="global-search-form" action="https://echo.htmlacademy.ru" method="GET">
+        <input class="global-search-form-input" type="search" name="search" placeholder="POISK"
+        aria-label="POISK" required>
+      </form>
+
+      <!-- LANG-TOGGLE -->
+      <div class="lang-toggle">
+        <a class="lang-toggle-link lang-toggle-link-active" href="#">UZ</a>
+        <a class="lang-toggle-link " href="#">RU</a>
+      </div>
+      <!-- SITE-HEADER-AUTH -->
+     <a class="button button-primary" href="#">Войти</a>
+    </div>
+  </div>
+
+<div class="container">
+  <!-- SITENAV -->
+  <nav class="sitenav">
+    <ul class="sitenav-list">
+      <li class="sitenav-item"><a class="sitenav-link" href="#">Главное</a></li>
+      <li class="sitenav-item"><a class="sitenav-link" href="#">Интересное</a></li>
+      <li class="sitenav-item"><a class="sitenav-link" href="#">Экономика</a></li>
+      <li class="sitenav-item"><a class="sitenav-link" href="#">Политика</a></li>
+      <li class="sitenav-item"><a class="sitenav-link" href="#">Общество</a></li>
+      <li class="sitenav-item"><a class="sitenav-link" href="#">Технологии</a></li>
+      <li class="sitenav-item"><a class="sitenav-link" href="#">Спорт</a></li>
+      <li class="sitenav-item"><a class="sitenav-link" href="#">Культура</a></li>
+      <li class="sitenav-item"><a class="sitenav-link" href="#">Происшествия</a></li>
+      <li class="sitenav-item"><a class="sitenav-link" href="#">Наука</a></li>
+    </ul>
+  </nav>
+
+  <!-- SITE-HEADER-BANNER -->
+<aside class="site-header-banner">
+  <a class="site-header-banner-link" href="https://olcha.uz" target="_blank">
+    <img class="site-header-banner-img" src="Css/Image/optimize 1.jpg" alt="banner-logo" width="1200" height="128" srcset="Css/Image/optimize 1.jpg 1x, Css/Image/optimize@2x 1.jpg 2x">
+  </a>
+</aside>
+</div>
+</header>
+
+<!-- MAIN-CONTENT -->
+<main class="main-content">
+  <div class="container">
+   <!-- <h1>Andijonliklar24</h1> -->
+
+   <!-- TOP-NEWS -->
+   <section class="top-news">
+    <!-- <h2>Top novosti</h2> -->
+    <!-- NEWS-GRID -->
+    <div class="news-grid">
+      <!-- NEWS-GRID-ITEM -->
+      <article class="news-grid-item article-card">
+        <h3 class="article-card-title">
+          <a class="article-card-link" href="#">Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения</a>
+        </h3>
+        <p class="article-card-text">Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...</p>
+        <img class="article-card-img" src="Css/Image/germany.jpg" alt="germany-img" width="359" height="165" srcset="Css/Image/germany.jpg 1x,
+        Css/Image/germany@2x.jpg 2x">
+        <footer class="article-card-footer">
+          <img class="article-card-source-icon" src="Css/Image/krasnaya-vesna.jpg" alt="krasnaya-vesna-icon" width="20" height="20" srcset="Css/Image/krasnaya-vesna.jpg 1x, Css/Image/krasnaya-vesna@2x.jpg 2x">
+          <div class="article-card-source-time">
+            <span class="article-card-source">IA Krasnaya vesna 15:55</span>
+            <time datetime="2024-09-27T15:55:00">15:55</time>
+          </div>
+        </footer>
+      </article>
+
+      <article class="news-grid-item article-card">
+        <h3 class="article-card-title">
+          <a class="article-card-link" href="#">Ученые доказали экспериментальным путем пользу покровных культур</a>
+        </h3>
+        <p class="article-card-text">Новое исследование ученых университета Иллинойса объединяет полевые данные... </p>
+        <img class="article-card-img" src="Css/Image/field.jpg" alt="field-img" width="359" height="165" srcset="Css/Image/field.jpg 1x,
+        Css/Image/field@2x.jpg 2x">
+        <footer class="article-card-footer">
+          <img class="article-card-source-icon" src="Css/Image/gazeta.jpg" alt="gazeta-icon" width="20" height="20" srcset="Css/Image/gazeta.jpg 1x, Css/Image/gazeta@2x.jpg 2x">
+          <div class="article-card-source-time">
+            <span class="article-card-source">Газета.Ru</span>
+            <time datetime="2024-09-27T15:55:00"> 12:54</time>
+          </div>
+        </footer>
+      </article>
+
+      <article class="news-grid-item article-card">
+        <h3 class="article-card-title">
+          <a class="article-card-link" href="#">Baidu запустила публичный сервис роботакси Apollo Go в Шанхае</a>
+        </h3>
+        <p class="article-card-text">Автопарк Baidu состоит из модифицированных электромобилей EV... </p>
+        <img class="article-card-img" src="Css/Image/shanhai.jpg" alt="shanhai-img" width="359" height="165" srcset="Css/Image/shanhai.jpg 1x,
+        Css/Image/shanhai@2x.jpg 2x">
+        <footer class="article-card-footer">
+          <img class="article-card-source-icon" src="Css/Image/hitech.jpg" alt="hitech-icon" width="20" height="20" srcset="Css/Image/hitech.jpg 1x, Css/Image/hitech@2x.jpg 2x">
+          <div class="article-card-source-time">
+            <span class="article-card-source">Хайтек+ </span>
+            <time datetime="2024-09-27T15:55:00">13:44</time>
+          </div>
+        </footer>
+      </article>
+
+      <article class="news-grid-item article-card">
+        <h3 class="article-card-title">
+          <a class="article-card-link" href="#">Стали известны ёмкости аккумуляторов всех моделей iPhone 13</a>
+        </h3>
+        <p class="article-card-text">Во время презентации iPhone 13 Apple придала большое значения...</p>
+        <img class="article-card-img" src="Css/Image/phone.jpg" phonealt="-img" width="359" height="165" srcset="Css/Image/phone.jpg 1x,
+        Css/Image/phone@2x.jpg 2x">
+        <footer class="article-card-footer">
+          <img class="article-card-source-icon" src="Css/Image/digger.jpg" alt="digger-icon" width="20" height="20" srcset="Css/Image/digger.jpg 1x, Css/Image/digger@2x.jpg 2x">
+          <div class="article-card-source-time">
+            <span class="article-card-source">Digger.ru</span>
+            <time datetime="2024-09-27T15:55:00"> 14:25</time>
+          </div>
+        </footer>
+      </article>
+
+      <article class="news-grid-item article-card">
+        <h3 class="article-card-title">
+          <a class="article-card-link" href="#">Nature: ученые смогли доказать природное происхождение коронавируса SARS-CoV-2</a>
+        </h3>
+        <p class="article-card-text">Во время презентации iPhone 13 Apple придала большое значение...</p>
+        <img class="article-card-img" src="Css/Image/sars.jpg" alt="sars-img" width="359" height="165" srcset="Css/Image/sars.jpg 1x,
+        Css/Image/sars@2x.jpg 2x">
+        <footer class="article-card-footer">
+          <img class="article-card-source-icon" src="Css/Image/lenta.jpg" alt="lenta-icon" width="20" height="20" srcset="Css/Image/lenta.jpg 1x, Css/Image/lenta@2x.jpg 2x">
+          <div class="article-card-source-time">
+            <span class="article-card-source">Lenta.ru </span>
+            <time datetime="2024-09-27T15:55:00">10:54</time>
+          </div>
+        </footer>
+      </article>
+
+      <article class="news-grid-item article-card">
+        <h3 class="article-card-title">
+          <a class="article-card-link" href="#">Китайская марка JAC повысила цены на лифтбек и пикап в России</a>
+        </h3>
+        <p class="article-card-text">Две модели китайского бренда JAC из пяти, представленных на российском...</p>
+        <img class="article-card-img" src="Css/Image/car.jpg" alt="car-img" width="359" height="165" srcset="Css/Image/car.jpg 1x,
+        Css/Image/car@2x.jpg 2x">
+        <footer class="article-card-footer">
+          <img class="article-card-source-icon" src="Css/Image/tarantas.png" alt="tarantas-icon" width="20" height="20" srcset="Css/Image/tarantas.png 1x, Css/Image/tarantas@2x.png 2x">
+          <div class="article-card-source-time">
+            <span class="article-card-source">Тарантас Ньюс </span>
+            <time datetime="2024-09-27T15:55:00">10:44</time>
+          </div>
+        </footer>
+      </article>
+    </div>
+   </section>
+  </div>
+</main>
+  </body>
+
 </html>
